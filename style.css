@@ -1,0 +1,598 @@
+element.style {
+}
+.header-title-logo {
+    width: auto;
+    font-size: 0;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.header .header-announcement-bar-wrapper {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    pointer-events: auto;
+}
+style attribute {
+    --solidHeaderBackgroundColor: hsla(var(--white-hsl), 1);
+    --solidHeaderNavigationColor: hsla(var(--black-hsl), 1);
+    --gradientHeaderBackgroundColor: hsla(var(--white-hsl), 1);
+    --gradientHeaderNavigationColor: hsla(var(--black-hsl), 1);
+}
+.header {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    line-height: 1;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    pointer-events: none;
+    transition: transform 140ms ease-in-out;
+}
+[data-section-theme="white"] {
+    --course-item-nav-text-color: hsla(var(--safeInverseLightAccent-hsl), 1);
+    --tweak-blog-item-pagination-icon-color: hsla(var(--black-hsl), 1);
+    --tweak-summary-block-read-more-color-on-background: hsla(var(--black-hsl), 1);
+    --tweak-quote-block-source-color-on-background: hsla(var(--black-hsl), 1);
+    --paragraphSmallColor: hsla(var(--black-hsl), 1);
+    --list-section-simple-button-background-color: hsla(var(--black-hsl), 1);
+    --gradientHeaderBorderColor: hsla(var(--black-hsl), 1);
+    --tweak-summary-block-header-text-color-on-background: hsla(var(--black-hsl), 1);
+    --solidHeaderDropShadowColor: hsla(var(--black-hsl), 1);
+    --tweak-blog-alternating-side-by-side-list-read-more-color: hsla(var(--safeDarkAccent-hsl), 1);
+    --tweak-summary-block-background-color: hsla(var(--lightAccent-hsl), 1);
+    --tweak-form-block-survey-title-color: hsla(var(--black-hsl), 1);
+    --list-section-carousel-card-description-color: hsla(var(--black-hsl), 1);
+    --image-block-card-inline-link-color: hsla(var(--black-hsl), 1);
+    --paragraphLargeColor: hsla(var(--black-hsl), 1);
+    --tweak-summary-block-primary-metadata-color-on-background: hsla(var(--black-hsl), 1);
+    --tweak-blog-item-comment-text-color: hsla(var(--black-hsl), 1);
+    --tweak-summary-block-read-more-color: hsla(var(--black-hsl), 1);
+    --list-section-banner-slideshow-card-description-link-color: hsla(var(--safeDarkAccent-hsl), 1);
+    --image-block-stack-inline-link-color: hsla(var(--black-hsl), 1);
+    --tweak-menu-block-title-color: hsla(var(--black-hsl), 1);
+    --list-section-carousel-card-button-text-color: hsla(var(--safeInverseDarkAccent-hsl), 1);
+    --tweak-paragraph-medium-color-on-background: hsla(var(--black-hsl), 1);
+    --portfolio-grid-overlay-title-color: hsla(var(--black-hsl), 1);
+    --tweak-accordion-block-icon-color: hsla(var(--black-hsl), 1);
+    --tweak-marquee-block-paragraph-color-on-background: hsla(var(--black-hsl), 1);
+    --tweak-product-quick-view-button-color: hsla(var(--black-hsl), 1);
+    --product-detail-subscription-price-text-color: hsla(var(--black-hsl), 1);
+    --paragraphMediumColor: hsla(var(--black-hsl), 1);
+    --siteTitleColor: hsla(var(--black-hsl), 1);
+    --tweak-product-basic-item-title-color: hsla(var(--black-hsl), 1);
+    --tweak-quote-block-text-color-on-background: hsla(var(--black-hsl), 1);
+    --list-section-carousel-card-title-color: hsla(var(--black-hsl), 1);
+    --tweak-gallery-icon-color: hsla(var(--black-hsl), 1);
+    --image-block-overlap-image-title-bg-color: hsla(var(--white-hsl), 1);
+    --tweak-newsletter-block-title-color: hsla(var(--black-hsl), 1);
+    --image-block-collage-inline-link-color: hsla(var(--black-hsl), 1);
+    --tweak-newsletter-block-button-background-color-on-background: hsla(var(--black-hsl), 1);
+    --tweak-product-basic-item-breadcumb-nav-color: hsla(var(--black-hsl), 1);
+    --tweak-product-basic-item-description-color: hsla(var(--black-hsl), 1);
+    --tertiaryButtonBackgroundColor: hsla(var(--black-hsl), 1);
+    --tweak-video-item-pagination-title-color: hsla(var(--black-hsl), 1);
+    --portfolio-grid-basic-title-color: hsla(var(--black-hsl), 1);
+    --tweak-blog-alternating-side-by-side-list-title-color: hsla(var(--black-hsl), 1);
+    --course-list-grid-layout-course-item-border-color: hsla(var(--darkAccent-hsl), 1);
+    --menuOverlayNavigationLinkColor: hsla(var(--black-hsl), 1);
+    --product-detail-subscriptions-frequency-text-color: hsla(var(--black-hsl), 1);
+    --tweak-quote-block-stroke-color: hsla(var(--black-hsl), 1);
+    --tweak-portfolio-item-pagination-title-color: hsla(var(--black-hsl), 1);
+    --tweak-form-block-title-color-on-background: hsla(var(--black-hsl), 1);
+Show all properties (269 more)
+}
+@media screen and (min-width: 768px), screen and (max-width: calc(3299px)) and (orientation: landscape) {
+    .site-wrapper, .sqs-catalog-item-list {
+        font-size: calc((var(--normal-text-size-value) - 1)* 1.2vw + 1rem);
+    }
+}
+.site-wrapper, .sqs-catalog-item-list {
+    font-family: var(--body-font-font-family);
+    font-style: var(--body-font-font-style);
+    font-weight: var(--body-font-font-weight);
+    line-height: var(--body-font-line-height);
+    letter-spacing: var(--body-font-letter-spacing);
+    text-transform: var(--body-font-text-transform);
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    background-color: var(--siteBackgroundColor);
+    color: var(--paragraphMediumColor);
+}
+@supports (--test-custom-property: true) {
+    body {
+        --sqs-site-gutter: 5vw;
+        --sqs-mobile-site-gutter: 6vw;
+        --sqs-site-max-width: 3000px;
+        --sqs-focus-outline-width: 2px;
+        --sqs-focus-outline-style: solid;
+        --sqs-focus-outline-offset-default: 4px;
+        --sqs-focus-outline-offset-zero: 0;
+        --sqs-focus-outline-offset-flush: -2px;
+        --sqs-focus-outline-offset-inset: -4px;
+    }
+}
+body {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+html, body {
+    font-size: var(--base-font-size);
+}
+:root {
+    --previous-section-divider-offset: 0px;
+}
+:root {
+    --primary-button-rounded-border-top-left-radius: 10px;
+    --primary-button-rounded-border-top-right-radius: 10px;
+    --primary-button-rounded-border-bottom-left-radius: 10px;
+    --primary-button-rounded-border-bottom-right-radius: 10px;
+    --primaryButtonPadding: 1.3rem;
+    --primary-button-padding-x: 1.5rem;
+    --primary-button-padding-y: .75rem;
+    --primary-button-stroke: 0px;
+    --secondary-button-rounded-border-top-left-radius: 10px;
+    --secondary-button-rounded-border-top-right-radius: 10px;
+    --secondary-button-rounded-border-bottom-left-radius: 10px;
+    --secondary-button-rounded-border-bottom-right-radius: 10px;
+    --secondary-button-padding-x: 1.5rem;
+    --secondary-button-padding-y: .75rem;
+    --secondary-button-stroke: 0px;
+    --tertiary-button-rounded-border-top-left-radius: 10px;
+    --tertiary-button-rounded-border-top-right-radius: 10px;
+    --tertiary-button-rounded-border-bottom-left-radius: 10px;
+    --tertiary-button-rounded-border-bottom-right-radius: 10px;
+    --tertiary-button-padding-x: 1.5rem;
+    --tertiary-button-padding-y: .75rem;
+    --tertiary-button-stroke: 0px;
+    --form-field-shape-border-top-left-radius: 5px;
+    --form-field-shape-border-top-right-radius: 5px;
+    --form-field-shape-border-bottom-left-radius: 5px;
+    --form-field-shape-border-bottom-right-radius: 5px;
+    --form-field-border-thickness: 1px;
+    --form-field-padding-vertical: 10px;
+    --form-field-padding-horizontal: 10px;
+    --form-field-checkbox-shape-border-top-left-radius: 5px;
+    --form-field-checkbox-shape-border-top-right-radius: 5px;
+    --form-field-checkbox-shape-border-bottom-left-radius: 5px;
+    --form-field-checkbox-shape-border-bottom-right-radius: 5px;
+    --form-field-checkbox-border-thickness: 1px;
+    --form-field-checkbox-size: 16px;
+    --form-field-checkbox-space-between-icon-and-text: 11px;
+    --form-field-checkbox-padding-vertical: 10px;
+    --form-field-checkbox-padding-horizontal: 10px;
+    --form-field-checkbox-row-gap: 12px;
+    --form-field-checkbox-column-gap: 20px;
+    --form-field-radio-shape-border-top-left-radius: 5px;
+    --form-field-radio-shape-border-top-right-radius: 5px;
+    --form-field-radio-shape-border-bottom-left-radius: 5px;
+    --form-field-radio-shape-border-bottom-right-radius: 5px;
+    --form-field-radio-border-thickness: 1px;
+    --form-field-radio-size: 17px;
+    --form-field-radio-space-between-icon-and-text: 11px;
+    --form-field-radio-padding-vertical: 10px;
+    --form-field-radio-padding-horizontal: 10px;
+    --form-field-radio-row-gap: 12px;
+Show all properties (16 more)
+}
+:root {
+    --base-font-size: 16px;
+    --heading-font-font-family: freight-display-pro;
+    --heading-font-font-style: normal;
+    --heading-font-font-weight: 400;
+    --heading-font-text-transform: none;
+    --heading-font-letter-spacing: 0em;
+    --heading-font-line-height: 1.5em;
+    --body-font-font-family: proxima-nova;
+    --body-font-font-style: normal;
+    --body-font-font-weight: 400;
+    --body-font-text-transform: none;
+    --body-font-letter-spacing: 0em;
+    --body-font-line-height: 1.8em;
+    --meta-font-font-family: proxima-nova;
+    --meta-font-font-style: normal;
+    --meta-font-font-weight: 600;
+    --meta-font-text-transform: none;
+    --meta-font-letter-spacing: .01em;
+    --meta-font-line-height: 1em;
+    --heading-1-size: 3.2rem;
+    --heading-1-size-value: 3.2;
+    --heading-2-size: 1.8rem;
+    --heading-2-size-value: 1.8;
+    --heading-3-size: 1.6rem;
+    --heading-3-size-value: 1.6;
+    --heading-4-size: 1.4rem;
+    --heading-4-size-value: 1.4;
+    --large-text-size: 1.5rem;
+    --large-text-size-value: 1.5;
+    --normal-text-size: 1.1rem;
+    --normal-text-size-value: 1.1;
+    --small-text-size: .9rem;
+    --small-text-size-value: .9;
+    --normal-meta-size: 1rem;
+    --normal-meta-size-value: 1;
+    --form-block-caption-text-font-font-family: var(--body-font-font-family);
+    --form-block-caption-text-font-font-style: var(--body-font-font-style);
+    --form-block-caption-text-font-font-weight: var(--body-font-font-weight);
+    --form-block-caption-text-font-text-transform: var(--body-font-text-transform);
+    --form-block-caption-text-font-letter-spacing: var(--body-font-letter-spacing);
+    --form-block-caption-text-font-line-height: var(--body-font-line-height);
+    --form-block-caption-text-font-font-size: var(--small-text-size);
+    --form-block-caption-text-font-font-size-value: var(--small-text-size-value);
+    --blog-alternating-side-by-side-list-title-font-font-family: var(--heading-font-font-family);
+    --blog-alternating-side-by-side-list-title-font-font-style: var(--heading-font-font-style);
+    --blog-alternating-side-by-side-list-title-font-font-weight: var(--heading-font-font-weight);
+    --blog-alternating-side-by-side-list-title-font-text-transform: var(--heading-font-text-transform);
+    --blog-alternating-side-by-side-list-title-font-letter-spacing: var(--heading-font-letter-spacing);
+    --blog-alternating-side-by-side-list-title-font-line-height: var(--heading-font-line-height);
+    --blog-alternating-side-by-side-list-title-font-font-size: var(--heading-2-size);
+Show all properties (753 more)
+}
+:root {
+    --course-item-nav-text-color: hsla(var(--safeInverseDarkAccent-hsl), 1);
+    --tweak-blog-item-pagination-icon-color: hsla(var(--white-hsl), 1);
+    --tweak-summary-block-read-more-color-on-background: hsla(var(--black-hsl), 1);
+    --tweak-quote-block-source-color-on-background: hsla(var(--black-hsl), 1);
+    --paragraphSmallColor: hsla(var(--white-hsl), 1);
+    --list-section-simple-button-background-color: hsla(var(--safeLightAccent-hsl), 1);
+    --gradientHeaderBorderColor: hsla(var(--black-hsl), 1);
+    --tweak-summary-block-header-text-color-on-background: hsla(var(--black-hsl), 1);
+    --solidHeaderDropShadowColor: hsla(var(--black-hsl), 1);
+    --tweak-blog-alternating-side-by-side-list-read-more-color: hsla(var(--safeLightAccent-hsl), 1);
+    --tweak-summary-block-background-color: hsla(var(--white-hsl), 1);
+    --tweak-form-block-survey-title-color: hsla(var(--white-hsl), 1);
+    --list-section-carousel-card-description-color: hsla(var(--black-hsl), 1);
+    --image-block-card-inline-link-color: hsla(var(--white-hsl), 1);
+    --paragraphLargeColor: hsla(var(--white-hsl), 1);
+    --tweak-summary-block-primary-metadata-color-on-background: hsla(var(--black-hsl), 1);
+    --tweak-blog-item-comment-text-color: hsla(var(--white-hsl), 1);
+    --tweak-summary-block-read-more-color: hsla(var(--white-hsl), 1);
+    --list-section-banner-slideshow-card-description-link-color: hsla(var(--safeLightAccent-hsl), 1);
+    --image-block-stack-inline-link-color: hsla(var(--white-hsl), 1);
+    --tweak-menu-block-title-color: hsla(var(--white-hsl), 1);
+    --list-section-carousel-card-button-text-color: hsla(var(--safeInverseDarkAccent-hsl), 1);
+    --tweak-paragraph-medium-color-on-background: hsla(var(--black-hsl), 1);
+    --portfolio-grid-overlay-title-color: hsla(var(--white-hsl), 1);
+    --tweak-accordion-block-icon-color: hsla(var(--white-hsl), 1);
+    --tweak-marquee-block-paragraph-color-on-background: hsla(var(--black-hsl), 1);
+    --tweak-product-quick-view-button-color: hsla(var(--black-hsl), 1);
+    --product-detail-subscription-price-text-color: hsla(var(--white-hsl), 1);
+    --paragraphMediumColor: hsla(var(--white-hsl), 1);
+    --siteTitleColor: hsla(var(--white-hsl), 1);
+    --tweak-product-basic-item-title-color: hsla(var(--white-hsl), 1);
+    --tweak-quote-block-text-color-on-background: hsla(var(--black-hsl), 1);
+    --list-section-carousel-card-title-color: hsla(var(--black-hsl), 1);
+    --tweak-gallery-icon-color: hsla(var(--white-hsl), 1);
+    --image-block-overlap-image-title-bg-color: hsla(var(--black-hsl), 1);
+    --tweak-newsletter-block-title-color: hsla(var(--white-hsl), 1);
+    --image-block-collage-inline-link-color: hsla(var(--black-hsl), 1);
+    --tweak-newsletter-block-button-background-color-on-background: hsla(var(--black-hsl), 1);
+    --tweak-product-basic-item-breadcumb-nav-color: hsla(var(--white-hsl), 1);
+    --tweak-product-basic-item-description-color: hsla(var(--white-hsl), 1);
+    --tertiaryButtonBackgroundColor: hsla(var(--safeLightAccent-hsl), 1);
+    --tweak-video-item-pagination-title-color: hsla(var(--white-hsl), 1);
+    --portfolio-grid-basic-title-color: hsla(var(--white-hsl), 1);
+    --tweak-blog-alternating-side-by-side-list-title-color: hsla(var(--white-hsl), 1);
+    --course-list-grid-layout-course-item-border-color: hsla(var(--accent-hsl), 1);
+    --menuOverlayNavigationLinkColor: hsla(var(--white-hsl), 1);
+    --product-detail-subscriptions-frequency-text-color: hsla(var(--white-hsl), 1);
+    --tweak-quote-block-stroke-color: hsla(var(--safeLightAccent-hsl), 1);
+    --tweak-portfolio-item-pagination-title-color: hsla(var(--white-hsl), 1);
+    --tweak-form-block-title-color-on-background: hsla(var(--black-hsl), 1);
+Show all properties (269 more)
+}
+:root {
+    --white-hsl: 0, 0%, 100%;
+    --black-hsl: 0, 0%, 0%;
+    --safeLightAccent-hsl: 42.86, 3.87%, 64.51%;
+    --safeDarkAccent-hsl: 42.86, 3.87%, 64.51%;
+    --safeInverseAccent-hsl: 0, 0%, 100%;
+    --safeInverseLightAccent-hsl: 0, 0%, 100%;
+    --safeInverseDarkAccent-hsl: 0, 0%, 100%;
+    --accent-hsl: 42.86, 3.87%, 64.51%;
+    --lightAccent-hsl: 210, 3.23%, 87.84%;
+    --darkAccent-hsl: 240, 2.61%, 22.55%;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+
+
+
+
+.sqs-block-image .image-overlay, .sqs-block-image .sqs-image-content::after, .sqs-block-image .image-block-wrapper:after {
+    opacity: .1;
+}
+.image-block-wrapper:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.page-section {
+    color: var(--paragraphMediumColor);
+}
+[data-section-theme="white"] {
+    --course-item-nav-text-color: hsla(var(--safeInverseLightAccent-hsl), 1);
+    --tweak-blog-item-pagination-icon-color: hsla(var(--black-hsl), 1);
+    --tweak-summary-block-read-more-color-on-background: hsla(var(--black-hsl), 1);
+    --tweak-quote-block-source-color-on-background: hsla(var(--black-hsl), 1);
+    --paragraphSmallColor: hsla(var(--black-hsl), 1);
+    --list-section-simple-button-background-color: hsla(var(--black-hsl), 1);
+    --gradientHeaderBorderColor: hsla(var(--black-hsl), 1);
+    --tweak-summary-block-header-text-color-on-background: hsla(var(--black-hsl), 1);
+    --solidHeaderDropShadowColor: hsla(var(--black-hsl), 1);
+    --tweak-blog-alternating-side-by-side-list-read-more-color: hsla(var(--safeDarkAccent-hsl), 1);
+    --tweak-summary-block-background-color: hsla(var(--lightAccent-hsl), 1);
+    --tweak-form-block-survey-title-color: hsla(var(--black-hsl), 1);
+    --list-section-carousel-card-description-color: hsla(var(--black-hsl), 1);
+    --image-block-card-inline-link-color: hsla(var(--black-hsl), 1);
+    --paragraphLargeColor: hsla(var(--black-hsl), 1);
+    --tweak-summary-block-primary-metadata-color-on-background: hsla(var(--black-hsl), 1);
+    --tweak-blog-item-comment-text-color: hsla(var(--black-hsl), 1);
+    --tweak-summary-block-read-more-color: hsla(var(--black-hsl), 1);
+    --list-section-banner-slideshow-card-description-link-color: hsla(var(--safeDarkAccent-hsl), 1);
+    --image-block-stack-inline-link-color: hsla(var(--black-hsl), 1);
+    --tweak-menu-block-title-color: hsla(var(--black-hsl), 1);
+    --list-section-carousel-card-button-text-color: hsla(var(--safeInverseDarkAccent-hsl), 1);
+    --tweak-paragraph-medium-color-on-background: hsla(var(--black-hsl), 1);
+    --portfolio-grid-overlay-title-color: hsla(var(--black-hsl), 1);
+    --tweak-accordion-block-icon-color: hsla(var(--black-hsl), 1);
+    --tweak-marquee-block-paragraph-color-on-background: hsla(var(--black-hsl), 1);
+    --tweak-product-quick-view-button-color: hsla(var(--black-hsl), 1);
+    --product-detail-subscription-price-text-color: hsla(var(--black-hsl), 1);
+    --paragraphMediumColor: hsla(var(--black-hsl), 1);
+    --siteTitleColor: hsla(var(--black-hsl), 1);
+    --tweak-product-basic-item-title-color: hsla(var(--black-hsl), 1);
+    --tweak-quote-block-text-color-on-background: hsla(var(--black-hsl), 1);
+    --list-section-carousel-card-title-color: hsla(var(--black-hsl), 1);
+    --tweak-gallery-icon-color: hsla(var(--black-hsl), 1);
+    --image-block-overlap-image-title-bg-color: hsla(var(--white-hsl), 1);
+    --tweak-newsletter-block-title-color: hsla(var(--black-hsl), 1);
+    --image-block-collage-inline-link-color: hsla(var(--black-hsl), 1);
+    --tweak-newsletter-block-button-background-color-on-background: hsla(var(--black-hsl), 1);
+    --tweak-product-basic-item-breadcumb-nav-color: hsla(var(--black-hsl), 1);
+    --tweak-product-basic-item-description-color: hsla(var(--black-hsl), 1);
+    --tertiaryButtonBackgroundColor: hsla(var(--black-hsl), 1);
+    --tweak-video-item-pagination-title-color: hsla(var(--black-hsl), 1);
+    --portfolio-grid-basic-title-color: hsla(var(--black-hsl), 1);
+    --tweak-blog-alternating-side-by-side-list-title-color: hsla(var(--black-hsl), 1);
+    --course-list-grid-layout-course-item-border-color: hsla(var(--darkAccent-hsl), 1);
+    --menuOverlayNavigationLinkColor: hsla(var(--black-hsl), 1);
+    --product-detail-subscriptions-frequency-text-color: hsla(var(--black-hsl), 1);
+    --tweak-quote-block-stroke-color: hsla(var(--black-hsl), 1);
+    --tweak-portfolio-item-pagination-title-color: hsla(var(--black-hsl), 1);
+    --tweak-form-block-title-color-on-background: hsla(var(--black-hsl), 1);
+Show all properties (269 more)
+}
+@media screen and (min-width: 768px), screen and (max-width: calc(3299px)) and (orientation: landscape) {
+    .site-wrapper, .sqs-catalog-item-list {
+        font-size: calc((var(--normal-text-size-value) - 1)* 1.2vw + 1rem);
+    }
+}
+.site-wrapper, .sqs-catalog-item-list {
+    font-family: var(--body-font-font-family);
+    font-style: var(--body-font-font-style);
+    font-weight: var(--body-font-font-weight);
+    line-height: var(--body-font-line-height);
+    letter-spacing: var(--body-font-letter-spacing);
+    text-transform: var(--body-font-text-transform);
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    background-color: var(--siteBackgroundColor);
+    color: var(--paragraphMediumColor);
+}
+@supports (--test-custom-property: true) {
+    body {
+        --sqs-site-gutter: 5vw;
+        --sqs-mobile-site-gutter: 6vw;
+        --sqs-site-max-width: 3000px;
+        --sqs-focus-outline-width: 2px;
+        --sqs-focus-outline-style: solid;
+        --sqs-focus-outline-offset-default: 4px;
+        --sqs-focus-outline-offset-zero: 0;
+        --sqs-focus-outline-offset-flush: -2px;
+        --sqs-focus-outline-offset-inset: -4px;
+    }
+}
+body {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+html, body {
+    font-size: var(--base-font-size);
+}
+:root {
+    --previous-section-divider-offset: 0px;
+}
+:root {
+    --primary-button-rounded-border-top-left-radius: 10px;
+    --primary-button-rounded-border-top-right-radius: 10px;
+    --primary-button-rounded-border-bottom-left-radius: 10px;
+    --primary-button-rounded-border-bottom-right-radius: 10px;
+    --primaryButtonPadding: 1.3rem;
+    --primary-button-padding-x: 1.5rem;
+    --primary-button-padding-y: .75rem;
+    --primary-button-stroke: 0px;
+    --secondary-button-rounded-border-top-left-radius: 10px;
+    --secondary-button-rounded-border-top-right-radius: 10px;
+    --secondary-button-rounded-border-bottom-left-radius: 10px;
+    --secondary-button-rounded-border-bottom-right-radius: 10px;
+    --secondary-button-padding-x: 1.5rem;
+    --secondary-button-padding-y: .75rem;
+    --secondary-button-stroke: 0px;
+    --tertiary-button-rounded-border-top-left-radius: 10px;
+    --tertiary-button-rounded-border-top-right-radius: 10px;
+    --tertiary-button-rounded-border-bottom-left-radius: 10px;
+    --tertiary-button-rounded-border-bottom-right-radius: 10px;
+    --tertiary-button-padding-x: 1.5rem;
+    --tertiary-button-padding-y: .75rem;
+    --tertiary-button-stroke: 0px;
+    --form-field-shape-border-top-left-radius: 5px;
+    --form-field-shape-border-top-right-radius: 5px;
+    --form-field-shape-border-bottom-left-radius: 5px;
+    --form-field-shape-border-bottom-right-radius: 5px;
+    --form-field-border-thickness: 1px;
+    --form-field-padding-vertical: 10px;
+    --form-field-padding-horizontal: 10px;
+    --form-field-checkbox-shape-border-top-left-radius: 5px;
+    --form-field-checkbox-shape-border-top-right-radius: 5px;
+    --form-field-checkbox-shape-border-bottom-left-radius: 5px;
+    --form-field-checkbox-shape-border-bottom-right-radius: 5px;
+    --form-field-checkbox-border-thickness: 1px;
+    --form-field-checkbox-size: 16px;
+    --form-field-checkbox-space-between-icon-and-text: 11px;
+    --form-field-checkbox-padding-vertical: 10px;
+    --form-field-checkbox-padding-horizontal: 10px;
+    --form-field-checkbox-row-gap: 12px;
+    --form-field-checkbox-column-gap: 20px;
+    --form-field-radio-shape-border-top-left-radius: 5px;
+    --form-field-radio-shape-border-top-right-radius: 5px;
+    --form-field-radio-shape-border-bottom-left-radius: 5px;
+    --form-field-radio-shape-border-bottom-right-radius: 5px;
+    --form-field-radio-border-thickness: 1px;
+    --form-field-radio-size: 17px;
+    --form-field-radio-space-between-icon-and-text: 11px;
+    --form-field-radio-padding-vertical: 10px;
+    --form-field-radio-padding-horizontal: 10px;
+    --form-field-radio-row-gap: 12px;
+Show all properties (16 more)
+}
+:root {
+    --base-font-size: 16px;
+    --heading-font-font-family: freight-display-pro;
+    --heading-font-font-style: normal;
+    --heading-font-font-weight: 400;
+    --heading-font-text-transform: none;
+    --heading-font-letter-spacing: 0em;
+    --heading-font-line-height: 1.5em;
+    --body-font-font-family: proxima-nova;
+    --body-font-font-style: normal;
+    --body-font-font-weight: 400;
+    --body-font-text-transform: none;
+    --body-font-letter-spacing: 0em;
+    --body-font-line-height: 1.8em;
+    --meta-font-font-family: proxima-nova;
+    --meta-font-font-style: normal;
+    --meta-font-font-weight: 600;
+    --meta-font-text-transform: none;
+    --meta-font-letter-spacing: .01em;
+    --meta-font-line-height: 1em;
+    --heading-1-size: 3.2rem;
+    --heading-1-size-value: 3.2;
+    --heading-2-size: 1.8rem;
+    --heading-2-size-value: 1.8;
+    --heading-3-size: 1.6rem;
+    --heading-3-size-value: 1.6;
+    --heading-4-size: 1.4rem;
+    --heading-4-size-value: 1.4;
+    --large-text-size: 1.5rem;
+    --large-text-size-value: 1.5;
+    --normal-text-size: 1.1rem;
+    --normal-text-size-value: 1.1;
+    --small-text-size: .9rem;
+    --small-text-size-value: .9;
+    --normal-meta-size: 1rem;
+    --normal-meta-size-value: 1;
+    --form-block-caption-text-font-font-family: var(--body-font-font-family);
+    --form-block-caption-text-font-font-style: var(--body-font-font-style);
+    --form-block-caption-text-font-font-weight: var(--body-font-font-weight);
+    --form-block-caption-text-font-text-transform: var(--body-font-text-transform);
+    --form-block-caption-text-font-letter-spacing: var(--body-font-letter-spacing);
+    --form-block-caption-text-font-line-height: var(--body-font-line-height);
+    --form-block-caption-text-font-font-size: var(--small-text-size);
+    --form-block-caption-text-font-font-size-value: var(--small-text-size-value);
+    --blog-alternating-side-by-side-list-title-font-font-family: var(--heading-font-font-family);
+    --blog-alternating-side-by-side-list-title-font-font-style: var(--heading-font-font-style);
+    --blog-alternating-side-by-side-list-title-font-font-weight: var(--heading-font-font-weight);
+    --blog-alternating-side-by-side-list-title-font-text-transform: var(--heading-font-text-transform);
+    --blog-alternating-side-by-side-list-title-font-letter-spacing: var(--heading-font-letter-spacing);
+    --blog-alternating-side-by-side-list-title-font-line-height: var(--heading-font-line-height);
+    --blog-alternating-side-by-side-list-title-font-font-size: var(--heading-2-size);
+Show all properties (753 more)
+}
+:root {
+    --course-item-nav-text-color: hsla(var(--safeInverseDarkAccent-hsl), 1);
+    --tweak-blog-item-pagination-icon-color: hsla(var(--white-hsl), 1);
+    --tweak-summary-block-read-more-color-on-background: hsla(var(--black-hsl), 1);
+    --tweak-quote-block-source-color-on-background: hsla(var(--black-hsl), 1);
+    --paragraphSmallColor: hsla(var(--white-hsl), 1);
+    --list-section-simple-button-background-color: hsla(var(--safeLightAccent-hsl), 1);
+    --gradientHeaderBorderColor: hsla(var(--black-hsl), 1);
+    --tweak-summary-block-header-text-color-on-background: hsla(var(--black-hsl), 1);
+    --solidHeaderDropShadowColor: hsla(var(--black-hsl), 1);
+    --tweak-blog-alternating-side-by-side-list-read-more-color: hsla(var(--safeLightAccent-hsl), 1);
+    --tweak-summary-block-background-color: hsla(var(--white-hsl), 1);
+    --tweak-form-block-survey-title-color: hsla(var(--white-hsl), 1);
+    --list-section-carousel-card-description-color: hsla(var(--black-hsl), 1);
+    --image-block-card-inline-link-color: hsla(var(--white-hsl), 1);
+    --paragraphLargeColor: hsla(var(--white-hsl), 1);
+    --tweak-summary-block-primary-metadata-color-on-background: hsla(var(--black-hsl), 1);
+    --tweak-blog-item-comment-text-color: hsla(var(--white-hsl), 1);
+    --tweak-summary-block-read-more-color: hsla(var(--white-hsl), 1);
+    --list-section-banner-slideshow-card-description-link-color: hsla(var(--safeLightAccent-hsl), 1);
+    --image-block-stack-inline-link-color: hsla(var(--white-hsl), 1);
+    --tweak-menu-block-title-color: hsla(var(--white-hsl), 1);
+    --list-section-carousel-card-button-text-color: hsla(var(--safeInverseDarkAccent-hsl), 1);
+    --tweak-paragraph-medium-color-on-background: hsla(var(--black-hsl), 1);
+    --portfolio-grid-overlay-title-color: hsla(var(--white-hsl), 1);
+    --tweak-accordion-block-icon-color: hsla(var(--white-hsl), 1);
+    --tweak-marquee-block-paragraph-color-on-background: hsla(var(--black-hsl), 1);
+    --tweak-product-quick-view-button-color: hsla(var(--black-hsl), 1);
+    --product-detail-subscription-price-text-color: hsla(var(--white-hsl), 1);
+    --paragraphMediumColor: hsla(var(--white-hsl), 1);
+    --siteTitleColor: hsla(var(--white-hsl), 1);
+    --tweak-product-basic-item-title-color: hsla(var(--white-hsl), 1);
+    --tweak-quote-block-text-color-on-background: hsla(var(--black-hsl), 1);
+    --list-section-carousel-card-title-color: hsla(var(--black-hsl), 1);
+    --tweak-gallery-icon-color: hsla(var(--white-hsl), 1);
+    --image-block-overlap-image-title-bg-color: hsla(var(--black-hsl), 1);
+    --tweak-newsletter-block-title-color: hsla(var(--white-hsl), 1);
+    --image-block-collage-inline-link-color: hsla(var(--black-hsl), 1);
+    --tweak-newsletter-block-button-background-color-on-background: hsla(var(--black-hsl), 1);
+    --tweak-product-basic-item-breadcumb-nav-color: hsla(var(--white-hsl), 1);
+    --tweak-product-basic-item-description-color: hsla(var(--white-hsl), 1);
+    --tertiaryButtonBackgroundColor: hsla(var(--safeLightAccent-hsl), 1);
+    --tweak-video-item-pagination-title-color: hsla(var(--white-hsl), 1);
+    --portfolio-grid-basic-title-color: hsla(var(--white-hsl), 1);
+    --tweak-blog-alternating-side-by-side-list-title-color: hsla(var(--white-hsl), 1);
+    --course-list-grid-layout-course-item-border-color: hsla(var(--accent-hsl), 1);
+    --menuOverlayNavigationLinkColor: hsla(var(--white-hsl), 1);
+    --product-detail-subscriptions-frequency-text-color: hsla(var(--white-hsl), 1);
+    --tweak-quote-block-stroke-color: hsla(var(--safeLightAccent-hsl), 1);
+    --tweak-portfolio-item-pagination-title-color: hsla(var(--white-hsl), 1);
+    --tweak-form-block-title-color-on-background: hsla(var(--black-hsl), 1);
+Show all properties (269 more)
+}
+:root {
+    --white-hsl: 0, 0%, 100%;
+    --black-hsl: 0, 0%, 0%;
+    --safeLightAccent-hsl: 42.86, 3.87%, 64.51%;
+    --safeDarkAccent-hsl: 42.86, 3.87%, 64.51%;
+    --safeInverseAccent-hsl: 0, 0%, 100%;
+    --safeInverseLightAccent-hsl: 0, 0%, 100%;
+    --safeInverseDarkAccent-hsl: 0, 0%, 100%;
+    --accent-hsl: 42.86, 3.87%, 64.51%;
+    --lightAccent-hsl: 210, 3.23%, 87.84%;
+    --darkAccent-hsl: 240, 2.61%, 22.55%;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
